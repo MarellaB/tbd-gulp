@@ -1,0 +1,20 @@
+{
+    display-name: 'Common Gulpfile',
+    display-developer: 'Brandon Marella',
+    description: 'A test gulp file.',
+    version: '1.0.0',
+    last-updated: '10-04-16',
+    commands: {
+        'init': 'Used when initializing a new workspace'
+    },
+    requirements-local: [
+        gulp,
+        gulp-util,
+        gulp-server-livereload,
+        mkdirp,
+        gulp-uglify,
+        gulp-concat,
+        gulp-sass,
+        gulp-sourcemaps
+    ]
+}
